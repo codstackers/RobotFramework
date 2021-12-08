@@ -1,120 +1,120 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 4.1.2 (Python 3.9.1 on win32)" generated="20211207 19:23:09.779" rpa="false" schemaversion="2">
+<robot generator="Robot 4.1.2 (Python 3.9.1 on win32)" generated="20211208 21:30:37.192" rpa="false" schemaversion="2">
 <suite id="s1" name="test2 DesktopAppWhite" source="C:\Code\Robot Framework Projects\Robot Test Scripts\RobotFramework\test2_DesktopAppWhite.robot">
 <test id="s1-t1" name="Open notepad">
 <kw name="Launch Application" library="WhiteLibrary">
 <arg>C:\\windows\\system32\\notepad.exe</arg>
 <doc>Launches an application.</doc>
-<status status="PASS" starttime="20211207 19:23:10.091" endtime="20211207 19:23:10.369"/>
+<status status="PASS" starttime="20211208 21:30:37.536" endtime="20211208 21:30:37.822"/>
 </kw>
 <kw name="Attach Window" library="WhiteLibrary">
 <arg>Untitled - Notepad</arg>
 <doc>Attaches WhiteLibrary to a window.</doc>
-<status status="PASS" starttime="20211207 19:23:10.424" endtime="20211207 19:23:10.581"/>
+<status status="PASS" starttime="20211208 21:30:37.912" endtime="20211208 21:30:38.076"/>
 </kw>
 <kw name="Press Keys" library="WhiteLibrary">
 <arg>this is my name Hasenen AHMAD</arg>
 <doc>Press a key or keys.</doc>
-<status status="PASS" starttime="20211207 19:23:10.584" endtime="20211207 19:23:10.637"/>
+<status status="PASS" starttime="20211208 21:30:38.078" endtime="20211208 21:30:38.178"/>
 </kw>
 <kw name="Double Click Item" library="WhiteLibrary">
 <arg>id:15</arg>
 <doc>Double clicks an item.</doc>
-<status status="PASS" starttime="20211207 19:23:10.666" endtime="20211207 19:23:10.919"/>
+<status status="PASS" starttime="20211208 21:30:38.186" endtime="20211208 21:30:38.426"/>
 </kw>
 <kw name="Right Click Item" library="WhiteLibrary">
 <arg>id:15</arg>
 <doc>Right clicks an item.</doc>
-<status status="PASS" starttime="20211207 19:23:10.921" endtime="20211207 19:23:10.974"/>
+<status status="PASS" starttime="20211208 21:30:38.428" endtime="20211208 21:30:38.475"/>
 </kw>
 <kw name="Click Item In Popup Menu" library="WhiteLibrary">
 <arg>Copy</arg>
 <doc>Clicks an item in the currently open popup/context menu.</doc>
-<status status="PASS" starttime="20211207 19:23:10.978" endtime="20211207 19:23:11.264"/>
+<status status="PASS" starttime="20211208 21:30:38.477" endtime="20211208 21:30:38.764"/>
 </kw>
 <kw name="Hold Special Key" library="WhiteLibrary">
 <arg>CONTROL</arg>
 <doc>Hold down a special key.</doc>
-<status status="PASS" starttime="20211207 19:23:11.272" endtime="20211207 19:23:11.279"/>
+<status status="PASS" starttime="20211208 21:30:38.772" endtime="20211208 21:30:38.779"/>
 </kw>
 <kw name="Press Keys" library="WhiteLibrary">
 <arg>vvvv</arg>
 <doc>Press a key or keys.</doc>
-<status status="PASS" starttime="20211207 19:23:11.304" endtime="20211207 19:23:11.337"/>
+<status status="PASS" starttime="20211208 21:30:38.779" endtime="20211208 21:30:38.796"/>
 </kw>
 <kw name="Leave Special Key" library="WhiteLibrary">
 <arg>CONTROL</arg>
 <doc>Leave a special key that was previously held down.</doc>
-<status status="PASS" starttime="20211207 19:23:11.340" endtime="20211207 19:23:11.369"/>
+<status status="PASS" starttime="20211208 21:30:38.816" endtime="20211208 21:30:38.822"/>
 </kw>
 <kw name="Get Text From Textbox" library="WhiteLibrary">
 <var>${notepadTextFieldContentCopied}</var>
 <arg>id:15</arg>
 <doc>Returns the text of a text box.</doc>
-<msg timestamp="20211207 19:23:11.429" level="INFO">${notepadTextFieldContentCopied} = this is my name Hasenen AHMADAHMADAHMADAHMAD</msg>
-<status status="PASS" starttime="20211207 19:23:11.396" endtime="20211207 19:23:11.429"/>
+<msg timestamp="20211208 21:30:38.876" level="INFO">${notepadTextFieldContentCopied} = this is my name Hasenen AHMADAHMADAHMADAHMAD</msg>
+<status status="PASS" starttime="20211208 21:30:38.845" endtime="20211208 21:30:38.876"/>
 </kw>
 <kw name="Should Be Equal" library="BuiltIn">
 <arg>${notepadTextFieldContentCopied}</arg>
 <arg>this is my name Hasenen AHMADAHMADAHMADAHMAD</arg>
 <doc>Fails if the given objects are unequal.</doc>
-<status status="PASS" starttime="20211207 19:23:11.431" endtime="20211207 19:23:11.432"/>
+<status status="PASS" starttime="20211208 21:30:38.892" endtime="20211208 21:30:38.893"/>
 </kw>
 <kw name="Click Menu Button" library="WhiteLibrary">
 <arg>text:File</arg>
 <doc>Clicks a menu button.</doc>
-<status status="PASS" starttime="20211207 19:23:11.432" endtime="20211207 19:23:11.608"/>
+<status status="PASS" starttime="20211208 21:30:38.895" endtime="20211208 21:30:39.027"/>
 </kw>
 <kw name="Click Menu Button" library="WhiteLibrary">
 <arg>text:Save</arg>
 <doc>Clicks a menu button.</doc>
-<status status="PASS" starttime="20211207 19:23:11.620" endtime="20211207 19:23:12.123"/>
+<status status="PASS" starttime="20211208 21:30:39.032" endtime="20211208 21:30:39.582"/>
 </kw>
 <kw name="Double Click Item" library="WhiteLibrary">
 <arg>id:1001</arg>
 <doc>Double clicks an item.</doc>
-<status status="PASS" starttime="20211207 19:23:12.175" endtime="20211207 19:23:12.265"/>
+<status status="PASS" starttime="20211208 21:30:39.627" endtime="20211208 21:30:39.782"/>
 </kw>
 <kw name="Press Keys" library="WhiteLibrary">
 <arg>C:\\Code\\Robot Framework Projects\\Robot Test Scripts\\RobotFramework\\saved_file_by_test2.txt</arg>
 <doc>Press a key or keys.</doc>
-<status status="PASS" starttime="20211207 19:23:12.272" endtime="20211207 19:23:12.379"/>
+<status status="PASS" starttime="20211208 21:30:39.784" endtime="20211208 21:30:39.852"/>
 </kw>
 <kw name="Click Button" library="WhiteLibrary">
 <arg>id:1</arg>
 <doc>Clicks a button.</doc>
-<status status="PASS" starttime="20211207 19:23:12.381" endtime="20211207 19:23:12.796"/>
+<status status="PASS" starttime="20211208 21:30:39.872" endtime="20211208 21:30:40.075"/>
 </kw>
 <kw name="Click Button" library="WhiteLibrary">
 <arg>id:CommandButton_6</arg>
 <doc>Clicks a button.</doc>
-<status status="PASS" starttime="20211207 19:23:12.797" endtime="20211207 19:23:13.018"/>
+<status status="PASS" starttime="20211208 21:30:40.080" endtime="20211208 21:30:40.310"/>
 </kw>
 <kw name="Attach Window" library="WhiteLibrary">
 <arg>saved_file_by_test2.txt - Notepad</arg>
 <doc>Attaches WhiteLibrary to a window.</doc>
-<status status="PASS" starttime="20211207 19:23:13.133" endtime="20211207 19:23:13.134"/>
+<status status="PASS" starttime="20211208 21:30:40.453" endtime="20211208 21:30:40.456"/>
 </kw>
 <kw name="Get Text From Textbox" library="WhiteLibrary">
 <var>${textAfterSave}</var>
 <arg>id:15</arg>
 <doc>Returns the text of a text box.</doc>
-<msg timestamp="20211207 19:23:13.211" level="INFO">${textAfterSave} = this is my name Hasenen AHMADAHMADAHMADAHMAD</msg>
-<status status="PASS" starttime="20211207 19:23:13.210" endtime="20211207 19:23:13.211"/>
+<msg timestamp="20211208 21:30:40.497" level="INFO">${textAfterSave} = this is my name Hasenen AHMADAHMADAHMADAHMAD</msg>
+<status status="PASS" starttime="20211208 21:30:40.496" endtime="20211208 21:30:40.497"/>
 </kw>
 <kw name="Should Be Equal" library="BuiltIn">
 <arg>${notepadTextFieldContentCopied}</arg>
 <arg>${textAfterSave}</arg>
 <doc>Fails if the given objects are unequal.</doc>
-<status status="PASS" starttime="20211207 19:23:13.262" endtime="20211207 19:23:13.262"/>
+<status status="PASS" starttime="20211208 21:30:40.500" endtime="20211208 21:30:40.500"/>
 </kw>
 <kw name="Close Application" library="WhiteLibrary">
 <doc>Closes the attached application.</doc>
-<status status="PASS" starttime="20211207 19:23:13.265" endtime="20211207 19:23:13.395"/>
+<status status="PASS" starttime="20211208 21:30:40.501" endtime="20211208 21:30:40.704"/>
 </kw>
-<status status="PASS" starttime="20211207 19:23:10.091" endtime="20211207 19:23:13.402"/>
+<status status="PASS" starttime="20211208 21:30:37.536" endtime="20211208 21:30:40.727"/>
 </test>
-<status status="PASS" starttime="20211207 19:23:09.795" endtime="20211207 19:23:13.429"/>
+<status status="PASS" starttime="20211208 21:30:37.193" endtime="20211208 21:30:41.589"/>
 </suite>
 <statistics>
 <total>

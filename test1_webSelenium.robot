@@ -20,14 +20,14 @@ Auto1 Open browser and navigate to google.com
     open browser  ${url}  ${browserC}
     sleep  2
     click button  id:onetrust-accept-btn-handler
-    Maximize browser window  
+    maximize browser window  
 
-    click Element  xpath://*[@id="top"]/div[3]/header/nav/div[1]/div/button
-    click Element  xpath://*[@id="top"]/div[3]/header/nav/div[2]/div/div[1]/div[2]/ul/li[3]/a
-    click Element  xpath://*[@id="weather-data"]/div/div/span[2]
+    click element  xpath://*[@id="top"]/div[3]/header/nav/div[1]/div/button
+    click element  xpath://*[@id="top"]/div[3]/header/nav/div[2]/div/div[1]/div[2]/ul/li[3]/a
+    click element  xpath://*[@id="weather-data"]/div/div/span[2]
     
     input text  id:frm-search  Turku
-    press Keys  none  ENTER
+    press keys  none  ENTER
     sleep  2
     capture page screenshot
     close browser     
@@ -52,9 +52,5 @@ Auto2 Navigate to nettiauto.com
     click button  id=everDisplayLogin
     sleep  5
     close browser
-
-
-
-   
 
 *** Keywords ***
